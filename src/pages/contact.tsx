@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-const Contact: React.FC = () => {
+export default function Contact() {
   return (
     <div>
       <Head>
@@ -15,5 +15,3 @@ const Contact: React.FC = () => {
     </div>
   )
 }
-
-export default Contact

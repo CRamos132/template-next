@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import Link from 'next/link'
 
-const Home: React.FC = () => {
+export default function Home() {
   return (
     <div>
       <Head>
@@ -20,5 +20,3 @@ const Home: React.FC = () => {
     </div>
   )
 }
-
-export default Home
